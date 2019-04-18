@@ -1,0 +1,28 @@
+[
+    {"name":"Aarakocra", "subraces":"none", "title":"Players Companion", "publication":"PC", "page": "3", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Aasimar", "subraces":"Protector, Scourge, Fallen", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "104", "img": "img/races/aasimarDnd.jpg"},
+    {"name":"BugBear", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "119", "img": "img/races/bugbearDnd.jpg"},
+
+    {"name":"Dragonborn", "subraces":"none", "title":"Players Handbook", "publication":"PH", "page": "32", "img": "img/races/dragonbornDnd.jpg"},
+    {"name":"Dwarf", "subraces":"Hill, Moutain, Duergar", "title":"Players Handbook Mordenkainen's Tome of Foes", "publication":"PH/MTF", "page": "19/81", "img": "img/races/dwarfDnd.jpg"},
+    {"name":"Elf", "subraces":"High, Wood, Dark, Eldarin, Sea, Shadar-Kai", "title":"Players Handbook Mordenkainen's Tome of Foes", "publication":"PH/MTF", "page": "21/61", "img": "img/races/elfDnd.jpg"},
+    {"name":"Firbolg", "subraces":"none", "title":"Players Companion", "publication":"VGM", "page": "106", "img": "img/races/firbolgDnd.jpg"},
+    {"name":"Genasi", "subraces":"Air, Earth, Fire, Water", "title":"Players Companion", "publication":"PC", "page": "7", "img": "img/races/genasiDnd.jpg"},
+    {"name":"Gith", "subraces":"Githyanki, Githzaria", "title":"Mordenkainen's Tome of Foes", "publication":"MTF", "page": "96", "img": "img/races/githzeraiDnd.jpg"},
+    {"name":"Gnome", "subraces":"Forest, Rock, Deep", "title":"Players Companion Mordenkainen's Tome of Foes", "publication":"PH/MTF", "page": "35/119", "img": "img/races/gnomeDnd.jpg"},
+    {"name":"Goblin", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "119", "img": "img/races/goblinDnd.jpg"},
+    {"name":"Goliath", "subraces":"Nne", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "108", "img": "img/races/goliathDnd.jpg"},
+    {"name":"Half-Elf", "subraces":"none", "title":"Players Handbook", "publication":"PH", "page": "38", "img": "img/races/halfelfDnd.jpg"},
+    {"name":"Half-Orc", "subraces":"none", "title":"Players Handbook", "publication":"PH", "page": "40", "img": "img/races/halforcDnd.jpg"},
+    {"name":"Halfling", "subraces":"Lightfoot, Stout", "title":"Players Handbook", "publication":"PH", "page": "26", "img": "img/races/halflingDnd.jpg"},
+    {"name":"Hobgoblin", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "119", "img": "img/races/hobgoblinDnd.jpg"},
+    {"name":"Human", "subraces":"Variant", "title":"Players Handbook", "publication":"PH", "page": "29", "img": "img/races/humanDnd.jpg"},
+    {"name":"Kenku", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "109", "img": "img/races/kenkuDnd.jpg"},
+    {"name":"Kobold", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "119", "img": "img/races/koboldDnd.jpg"},
+    {"name":"Lizardfolk", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "111", "img": "img/races/lizardfolkDnd.jpg"},
+    {"name":"Orc", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "120", "img": "img/races/orcDnd.jpg"},
+    {"name":"Tabaxi", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "113", "img": "img/races/tabaxiDnd.jpg"},
+    {"name":"Tiefling", "subraces":"none", "title":"Players Handbook", "publication":"PH", "page": "42", "img": "img/races/tieflingDnd.jpg"},
+    {"name":"Triton", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "115", "img": "img/races/tritonDnd.jpg"},
+    {"name":"Yuan-Ti", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "120", "img": "img/races/yuanTiDnd.jpg"}
+]

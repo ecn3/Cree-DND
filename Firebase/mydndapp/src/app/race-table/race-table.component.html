@@ -1,0 +1,26 @@
+<table>
+    <thead>
+        <tr>
+            <th>Race</th>
+            <th>Subraces</th>
+            <th>Publication</th>
+            <th>Page</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    <ng-container *ngFor="let race of races">
+      
+            <tr ng-repeat="let race of races">
+               <td> <app-race-row-race [race]="race"></app-race-row-race></td>
+               <td> <app-race-row-subrace [race]="race"></app-race-row-subrace></td> 
+               <td> <app-race-row-publication [race]="race"></app-race-row-publication></td> 
+               <td> <app-race-row-page [race]="race"></app-race-row-page></td> 
+               <td> <app-race-row-image [race]="race"></app-race-row-image></td> 
+            </tr>
+       
+    </ng-container>
+ </tbody>
+
+</table>

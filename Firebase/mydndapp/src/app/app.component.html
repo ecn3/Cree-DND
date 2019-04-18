@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg">
+    <!--<a class="navbar-brand" href="./index.html"><img class="logo" src="../img/noun_solid vertical platonic solids_2176298.png"></a>-->
+    <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" routerLink="builder">
+                Character Creator
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" routerLink="builder">Character Builder</a>
+                <a class="dropdown-item" href="./helper">Builder Helper</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="info">Rule References</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="main">Project Description</a>
+        </li>
+    </ul>
+  </nav>
+
+<router-outlet></router-outlet>
+<!-- Routed view goes here-->
+
+<footer>
+        © Cree Designs
+ </footer>

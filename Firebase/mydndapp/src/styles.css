@@ -1,0 +1,69 @@
+.citation {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding: .4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 1.5rem;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/groupdndapp.appspot.com/o/img%2Fparchment-paper-cropped.jpg?alt=media&token=4f113850-a065-4f8b-ad68-9d0d94b9f41b');
+    background-attachment: fixed;
+}
+h2 {
+    font-size: 2rem;
+    font-family: "Kaushan Script", fantasy;
+}
+table, tr, td, th {
+    border: 1px solid black;
+    background-color: #DAF7A6;
+    padding: .2rem .5rem .2rem .5rem;
+}
+
+table {
+    background-color: #36BB6E;
+}
+td img {
+    max-width: 200px;
+}
+li a {
+    color: #b70707;
+}
+nav {
+    background-color: #b70707;
+}
+.logo {
+    max-width: 100px;
+}
+nav {
+    padding-bottom: 1rem;
+}
+.nav-link {
+    color: black;
+    text-shadow: none;
+}
+form.charsheet {
+    background-color: #fffdf2;
+    border-radius: 10px;
+    margin: .5rem;
+}
+form.charsheet header ul{
+    list-style-type: none;
+    background-color: #fffdf2;
+}
+form.charsheet header ul li {
+    background-color: #fffdf2;
+    text-align: center;
+    float: left;
+}
+form.charsheet header ul li section {
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+}
+form.charsheet header ul li section{
+    text-align: center;
+}
+form.charsheet header ul li section label {
+    font-size: .8rem;
+}
