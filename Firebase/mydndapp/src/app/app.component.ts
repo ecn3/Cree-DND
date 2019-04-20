@@ -9,4 +9,6 @@ import data from '../assets/data/races.json';
 export class AppComponent {
   title = 'races';
   public races = data;
+
+  constructor(){}
 }

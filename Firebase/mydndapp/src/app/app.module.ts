@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import {AppRoutingModule, routingComponents} from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './builder/header/header/header.component';
@@ -18,8 +18,12 @@ import { RaceRowPublicationComponent } from './race-row-publication/race-row-pub
 import { RaceRowPageComponent } from './race-row-page/race-row-page.component';
 import { RaceRowImageComponent } from './race-row-image/race-row-image.component';
 
-
-
+//import { AuthGuard } from './core/auth.guard';
+import { AngularFireModule } from 'angularfire2';
+import { LoginPageComponent } from './login-page/login-page.component';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AuthGuard } from './core/auth.guard';
 
 @NgModule({
   declarations: [
@@ -37,13 +41,24 @@ import { RaceRowImageComponent } from './race-row-image/race-row-image.component
     RaceRowRaceComponent,
     RaceRowPublicationComponent,
     RaceRowPageComponent,
-    RaceRowImageComponent
+    RaceRowImageComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFireModule.initializeApp({
+      apiKey: "AIzaSyBmshXCy1iJ12PMnw08LVMPgxbSTh_vcd0",
+      authDomain: "cree-dnd.firebaseapp.com",
+      databaseURL: "https://cree-dnd.firebaseio.com",
+      projectId: "cree-dnd",
+      storageBucket: "cree-dnd.appspot.com",
+      messagingSenderId: "687824902672"
+    }),
+    AngularFireAuthModule,
+    AngularFireDatabaseModule,
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
