@@ -1,0 +1,10 @@
+.col input {
+    width: 50%;
+}
+.col {
+    text-align: center;
+    font-size:  1rem;
+}
+.container, .money {
+    border: 1px solid black;
+}

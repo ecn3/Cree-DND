@@ -1,5 +1,5 @@
 <div *ngIf="user.uid | async as uid; else login">
-  <app-main-description></app-main-description>
+  Welcome user, this is the account for {{uid}}
   <div *ngIf="user.isAdmin | async">
     You are an Admin
   </div>

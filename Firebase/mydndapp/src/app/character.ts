@@ -1,0 +1,46 @@
+import { setClassMetadata } from "@angular/core/src/render3";
+
+export class Character {
+    public name: string;
+    public race: string;
+    public class: string;
+    public background: string;
+    public level: number;
+    public ac: number;
+    public initiative: number;
+    public speed: number;
+    public hp: number;
+    public feats: string[];
+    public tempHp: number;
+    public hitDice: number;
+    public strength: number;
+    public dexterity=-1;
+    public constitution: number;
+    public intelligence: number;
+    public wisdom: number;
+    public charisma: number;
+    public strengthSave: number;
+    public dexteritySave: number;
+    public constitutionSave: number;
+    public intelligenceSave: number;
+    public wisdomSave: number;
+    public charismaSave: number;
+    public acrobatics: number;
+    public animalHandling: number;
+    public arcana: number;
+    public athletics: number;
+    public deception: number;
+    public history: number;
+    public insight: number;
+    public intimidation: number;
+    public investigation: number;
+    public medicine: number;
+    public nature: number;
+    public perception: number;
+    public performance: number;
+    public persuasion: number;
+    public religion: number;
+    public sleightOfHand: number;
+    public stealth: number;
+    public survival: number;
+}

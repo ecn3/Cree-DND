@@ -12,4 +12,9 @@ export class LevelComponent implements OnInit {
   ngOnInit() {
   }
 
+  setProficiency() {
+    let level = Number((document.getElementById("level") as HTMLInputElement).value);
+    let proficiency = 1 + Math.ceil(level / 4);
+    document.getElementById("proficiency").setAttribute("value", proficiency.toString());
+  }
 }

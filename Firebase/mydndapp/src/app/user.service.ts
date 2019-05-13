@@ -7,6 +7,7 @@ import { auth } from 'firebase';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { User } from './models/user';
 import { Router } from '@angular/router';
+import { AngularFirestoreDocument } from '@angular/fire/firestore';
 
 
 @Injectable({

@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="container">
+    <label for="proficiency">Proficiency Bonus</label>
+    <input type="text" id="proficiency" readonly value="2">
+  </div>
+  <div class="card">
+    <div class="card-header"><label for="strength">Strength</label></div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><input type="text" class="strength" value="-1" id="strengthMod" readonly></li>
+      <li class="list-group-item"><input type="number" value="8" min="8" max="30" id="strengthStat" (change)="setStrengthMod()"></li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header"><label for="dexterity">Dexterity</label></div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><input type="text" value="-1" id="dexterityMod" readonly></li>
+      <li class="list-group-item"><input type="number" value="8" min="8" max="30" id="dexterityStat" (change)="setDexterityMod()"></li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header"><label for="constitution">Constitution</label></div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><input type="text" value="-1" id="constitutionMod" readonly></li>
+      <li class="list-group-item"><input type="number" value="8" min="8" max="30" id="constitutionStat" (change)="setConstitutionMod()"></li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header"><label for="intelligence">Intelligence</label></div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><input type="text" value="-1" id="intelligenceMod" readonly></li>
+      <li class="list-group-item"><input type="number" value="8" min="8" max="30" id="intelligenceStat" (change)="setIntelligenceMod()"></li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header"><label for="wisdom">Wisdom</label></div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><input type="text" value="-1" id="wisdomMod" readonly></li>
+      <li class="list-group-item"><input type="number" value="8" min="8" max="30" id="wisdomStat" (change)="setWisdomMod()"></li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-header"><label for="charisma">Charisma</label></div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><input type="text" value="-1" id="charismaMod" readonly></li>
+      <li class="list-group-item"><input type="number" value="8" min="8" max="30" id="charismaStat" (change)="setCharismaMod()"></li>
+    </ul>
+  </div>
+</div>
