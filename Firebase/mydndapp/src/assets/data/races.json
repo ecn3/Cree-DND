@@ -1,5 +1,5 @@
 [
-    {"name":"Aarakocra", "subraces":"none", "title":"Players Companion", "publication":"PC", "page": "3", "img": "img/races/aarakocraDnd.jpg"},
+    {"name":"Aarakocra", "subraces":"none", "title":"Players Companion", "publication":"PC", "page": "3", "img": "https://firebasestorage.googleapis.com/v0/b/cree-dnd.appspot.com/o/img%2Fraces%2FaarakocraDnd.jpg?alt=media&token=21871a44-d875-4bec-959a-89e927341331"},
     {"name":"Aasimar", "subraces":"Protector, Scourge, Fallen", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "104", "img": "img/races/aasimarDnd.jpg"},
     {"name":"BugBear", "subraces":"none", "title":"Volo's Guide to Monsters", "publication":"VGM", "page": "119", "img": "img/races/bugbearDnd.jpg"},
 
