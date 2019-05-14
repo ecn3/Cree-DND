@@ -33,6 +33,7 @@ import { AttacksComponent } from './builder/main/attacks/attacks.component';
 import { EquipmentComponent } from './builder/main/equipment/equipment.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
 import { MyCampaignComponent } from './my-campaign/my-campaign.component';
+import { AdminPageComponent } from './admin-page/admin-page.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +62,7 @@ import { MyCampaignComponent } from './my-campaign/my-campaign.component';
     EquipmentComponent,
     NavbarComponent,
     MyCampaignComponent,
+    AdminPageComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,7 @@
 <div *ngIf="user.uid | async as uid; else login">
   Welcome user, this is the account for {{uid}}
   <div *ngIf="user.isAdmin | async">
-    You are an Admin
+    You are an Admin, this <a routerLink="/adminPage">way</a> to admin page!
   </div>
   <div><button (click)="user.logout()">Logout</button></div>
 </div>
