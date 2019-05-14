@@ -32,6 +32,7 @@ import { CombatComponent } from './builder/main/combat/combat.component';
 import { AttacksComponent } from './builder/main/attacks/attacks.component';
 import { EquipmentComponent } from './builder/main/equipment/equipment.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
+import { MyCampaignComponent } from './my-campaign/my-campaign.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { NavbarComponent } from './core/navbar/navbar.component';
     AttacksComponent,
     EquipmentComponent,
     NavbarComponent,
+    MyCampaignComponent,
   ],
   imports: [
     BrowserModule,

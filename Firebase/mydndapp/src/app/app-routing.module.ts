@@ -6,11 +6,13 @@ import { BuilderComponent } from './builder/builder.component';
 import { MainDescriptionComponent } from './main-description/main-description.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { AuthGuard } from './core/auth.guard';
+import { MyCampaignComponent } from './my-campaign/my-campaign.component';
 
 const routes: Routes = [
     { path: 'info', component: InfoComponent, canActivate: [AuthGuard]},
     { path: 'builder', component: BuilderComponent, canActivate: [AuthGuard]},
     { path: 'main', component: MainDescriptionComponent, canActivate: [AuthGuard]},
+    { path: 'myCampaign', component: MyCampaignComponent, canActivate: [AuthGuard]},
     { path: 'login', component: LoginPageComponent },
     { path: '', redirectTo: '/login', pathMatch: 'full' },
     { path: '**', redirectTo: '/login'}
