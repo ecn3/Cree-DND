@@ -1,0 +1,23 @@
+[debug] [2019-05-14T20:06:14.579Z] ----------------------------------------------------------------------
+[debug] [2019-05-14T20:06:14.587Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Christian\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-05-14T20:06:14.587Z] CLI Version:   6.6.0
+[debug] [2019-05-14T20:06:14.587Z] Platform:      win32
+[debug] [2019-05-14T20:06:14.587Z] Node Version:  v11.10.0
+[debug] [2019-05-14T20:06:14.589Z] Time:          Tue May 14 2019 15:06:14 GMT-0500 (Central Daylight Time)
+[debug] [2019-05-14T20:06:14.589Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-14T20:06:14.612Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-14T20:06:14.618Z] > authorizing via signed-in user
+[debug] [2019-05-14T20:06:14.618Z] [iam] checking project cree-dnd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-05-14T20:06:14.622Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cree-dnd:testIamPermissions  
+
+[debug] [2019-05-14T20:06:14.910Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-14T20:06:14.912Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/cree-dnd  
+ 
+[debug] [2019-05-14T20:06:15.085Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'cree-dnd'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-05-14T20:06:15.091Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/cree-dnd/versions  
+
